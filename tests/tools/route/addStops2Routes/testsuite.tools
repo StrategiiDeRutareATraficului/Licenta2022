@@ -1,0 +1,20 @@
+# tests for adding stops at the end of a route
+basic
+
+# preserve persons in input
+withPersons
+
+# add stops to person plans
+withPersons_stops
+
+# assign parkingArea on the destination edge
+parkingArea
+
+# generated vehicles that start at the destination stop
+stationary
+
+# generate trips that start at the destination stop
+stationary_trips
+
+# generate routes that start at each parkingArea without input route file
+stationary_noRoutes
